@@ -1,0 +1,71 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.header{
+  text-align: center;
+  background-color: black;
+  padding: 40px;
+}
+.header h1{
+  color: white;
+}
+.btn{
+  text-align: center;
+  margin-top: 5vh;
+}
+.btn button{
+  padding: 15px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  font-size: 10px;
+  transition: 0.5s font-size;
+}
+.btn button:hover{
+  font-size: 15px;
+  font-style: italic;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+}
+.container .userCard{
+  flex: 1 1 400px;
+}
+.userdatacontainer {
+  width: 100%;
+  height: fit-content;
+  background-color: rgb(238, 159, 234);
+}
+#main {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+  margin-top: 1vh;
+}
+.avatar {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.profile_cont {
+  background-color: white;
+  color: black;
+  margin: 10px;
+  padding: 20px;
+  width: 30%;
+  text-align: center;
+  margin-top: 10vh;
+  transform: scale(0.7);
+  transition: 0.3s transform ease;
+}
+.profile_cont:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  transform: scale(0.9);
+}
